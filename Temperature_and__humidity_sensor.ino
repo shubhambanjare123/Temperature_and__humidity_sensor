@@ -7,6 +7,20 @@
     1602 LCD Module 
 */
 
+/*
+      CONNECTION
+  For lcd 
+    1. SCL - A0
+    2. SDA - A1
+    3. VCC - 5V
+    4. GND - GND
+  For DHT11 Sensor
+    1. DATA - D2
+    2. VCC - 5V
+    3. GND - GND
+    4. Connect a 10K resistor between data and vcc pin of DHT11 sensor.(Mandatory)
+*/
+
 #include <LiquidCrystal_I2C.h>
 #include "DHT.h"
 #define DHTPIN 2
